@@ -14,3 +14,4 @@ workflows:
         - main
       tags:
         - /.*/
+

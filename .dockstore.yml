@@ -5,3 +5,12 @@ workflows:
     primaryDescriptorPath: /wdl/vcf-qc/CollectVcfQcMetrics.wdl
     authors:
       - orcid: 0000-0003-1268-9995
+
+  - subclass: WDL
+    name: MarkBatchEffects
+    primaryDescriptorPath: /wdl/MarkBatchEffects.wdl
+    filters:
+      branches:
+        - main
+      tags:
+        - /.*/
